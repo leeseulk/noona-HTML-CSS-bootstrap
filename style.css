@@ -18,3 +18,36 @@
   border: 50px solid blue;
   background-color: #1abc9c;
 }
+
+
+.challenge2{
+  padding:  10%;
+}
+
+h1{
+  color:  #9b59b6;
+}
+
+h1:first-child{
+  text-align: center;
+}
+
+h1::before {
+  content:" Topic:";
+  display:  inline-block;
+}
+
+p{
+  font-size:  16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+p::first-letter{
+ font-size: 200%;
+ color: #2980b9;
+}
+
+.sub-header{
+  color:  #2980b9; 
+}
